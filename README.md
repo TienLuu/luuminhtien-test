@@ -1,16 +1,12 @@
-## Available Scripts
+# Assessment Project
+## Login and Edit profile page ✔
 
-In the project directory, you can run:
+- Create a sketch of the authentication flow of the login function. The file in the repository with the name: authentication-flow.pdf
+- API get from Cybersoft Bootcamp(where i was studied):
+  - Cybersoft's swagger: https://jiranew.cybersoft.edu.vn/swagger/index.html
+  - Account i used for login: Acount: cyberlearn_admin_02@gmail.com Password: 123
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-# PROJECT STRUCTURE 🏗
+## Project Structure 🏗
 
 | File or folder | Description                                                                                                                                                                                  |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -18,3 +14,20 @@ You will also see any lint errors in the console.
 | src/App        | Main application routes, components that need to be mounted at all times regardless of current route, global css styles, etc. Basically anything considered global /ancestor of all modules. |
 | src/auth       | Authentication module                                                                                                                                                                        |
 | src/pages      | Project module                                                                                                                                                                               |
+
+## Libraries ✔
+
+- Call API: axios
+- Form Management: react-hook-form
+- Router: react-router-dom
+- State Management: @reduxjs/toolkit
+- UI: SCSS
+
+## In the project directory, you can run ✨
+
+- `npm install`
+- `npm start`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
