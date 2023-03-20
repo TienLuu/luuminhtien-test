@@ -1,16 +1,4 @@
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-# PROJECT STRUCTURE 🏗
+## PROJECT STRUCTURE 🏗
 
 | File or folder | Description                                                                                                                                                                                  |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -18,3 +6,17 @@ You will also see any lint errors in the console.
 | src/App        | Main application routes, components that need to be mounted at all times regardless of current route, global css styles, etc. Basically anything considered global /ancestor of all modules. |
 | src/auth       | Authentication module                                                                                                                                                                        |
 | src/pages      | Project module                                                                                                                                                                               |
+
+## Libraries
+- Call API: axios
+- Form Management: react-hook-form
+- Router: react-router-dom
+- State Management: @reduxjs/toolkit
+- UI: SCSS
+
+## In the project directory, you can run:
+- `npm start`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
