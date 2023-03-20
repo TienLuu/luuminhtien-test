@@ -1,4 +1,12 @@
-## PROJECT STRUCTURE 🏗
+# Assessment Project
+## Login and Edit profile page.
+- Create a sketch of the authentication flow of the login function. The file in the repository with the name: authentication-flow.pdf
+- API get from Cybersoft Bootcamp(where i was studied):
+  - Cybersoft's swagger: https://movienew.cybersoft.edu.vn/swagger/index.html
+  - Account i used for login: 
+   - Acount: cyberlearn_admin_02@gmail.com Password: 123
+
+## Project Structure 🏗
 
 | File or folder | Description                                                                                                                                                                                  |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -7,14 +15,14 @@
 | src/auth       | Authentication module                                                                                                                                                                        |
 | src/pages      | Project module                                                                                                                                                                               |
 
-## Libraries
+## Libraries ✔
 - Call API: axios
 - Form Management: react-hook-form
 - Router: react-router-dom
 - State Management: @reduxjs/toolkit
 - UI: SCSS
 
-## In the project directory, you can run:
+## In the project directory, you can run ✨
 - `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
