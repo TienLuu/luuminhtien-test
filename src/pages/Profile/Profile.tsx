@@ -113,6 +113,11 @@ const Profile = () => {
                            value: true,
                            message: "Email is required",
                         },
+                        pattern: {
+                           value: /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/g,
+                           message:
+                              "Please enter your email address in format: yourname@example.com",
+                        },
                      })}
                   />
                   {errors.email && (
@@ -128,6 +133,11 @@ const Profile = () => {
                         required: {
                            value: true,
                            message: "Phone Number is required",
+                        },
+                        pattern: {
+                           value: /(84|0[3|5|7|8|9])+([0-9]{8})\b/,
+                           message:
+                              "Please enter your phone in format: 840901234567 || 0901234567",
                         },
                      })}
                   />
