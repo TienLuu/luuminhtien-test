@@ -1,0 +1,71 @@
+.wrapper {
+   padding-left: 30px;
+   padding-right: 30px;
+   background-color: var(--clr-white);
+   border-radius: 20px;
+   width: 60vh;
+   min-height: 60vh;
+   max-height: 60vh;
+}
+
+.title {
+   font-size: 18px;
+   text-align: center;
+   padding-top: 80px;
+}
+
+.formWrapper {
+   .inputGroup {
+      margin-bottom: 10px;
+   }
+
+   label {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--clr-primary-light);
+      margin-left: 8px;
+   }
+
+   input:not([type="checkbox"]) {
+      display: block;
+      width: 100%;
+      margin-top: 3px;
+      padding: 10px 8px;
+      border-radius: 6px;
+      border: 1px solid var(--clr-border);
+   }
+
+   input::placeholder {
+      color: var(--clr-border);
+      font-size: 14px;
+   }
+}
+
+.action {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 10px;
+
+   .show {
+      display: flex;
+      align-items: center;
+
+      label {
+         color: var(--clr-black);
+      }
+   }
+
+   button {
+      padding: 10px 35px;
+      font-size: 12px;
+      color: var(--clr-white);
+      background-color: var(--clr-primary);
+      border-radius: 6px;
+      cursor: pointer;
+
+      &:hover {
+         opacity: 0.9;
+      }
+   }
+}
